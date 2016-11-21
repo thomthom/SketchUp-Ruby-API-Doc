@@ -170,7 +170,7 @@ module Sketchup
         end
         def point_to_utm
         end
-        def raytest
+        def raytest(ray, wysiwyg = false)
         end
         def remove_observer
         end
@@ -187,12 +187,12 @@ module Sketchup
 
         def save_thumbnail
         end
-        def select_tool
+
+        def select_tool(tool)
         end
 
         # @return a collection of selected Entity objects
         def selection
-            @selection
         end
 
         # @see Model#get_attribute

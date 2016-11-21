@@ -119,4 +119,8 @@ module UI
     end
     def self.toolbar_visible?(name)
     end
+
+    # @return [Float]
+    def self.scale_factor
+    end
 end

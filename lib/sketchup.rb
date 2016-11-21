@@ -129,7 +129,7 @@ module Sketchup
   end
 
   # @see write_default
-  def self.read_default
+  def self.read_default(section, key, default_value)
   end
 
   def self.register_extension(extension, load_on_start)

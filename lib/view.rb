@@ -54,7 +54,7 @@ module Sketchup
         end
         def draw_polyline(*args)
         end
-        def draw_text(point, string)
+        def draw_text(point, string, options = {})
         end
         def drawing_color=(color)
         end

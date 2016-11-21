@@ -6,7 +6,7 @@ module Sketchup
     def guid
     end
 
-    def add_observer
+    def add_observer(value)
     end
     def copy
     end
@@ -18,7 +18,7 @@ module Sketchup
 
     def description
     end
-    def description=
+    def description=(value)
     end
     def entities
     end
@@ -26,27 +26,27 @@ module Sketchup
     end
     def local_bounds
     end
-    def locked=
+    def locked=(value)
     end
     def locked?
     end
     def make_unique
     end
-    def move!
+    def move!(value)
     end
     def name
     end
-    def name=
+    def name=(value)
     end
-    def remove_observer
+    def remove_observer(value)
     end
     def to_component
     end
-    def transform!
+    def transform!(transform)
     end
     def transformation
     end
-    def transformation=
+    def transformation=(value)
     end
   end
 end

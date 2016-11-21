@@ -1,8 +1,15 @@
 module Sketchup
-class UVHelper
-    def get_back_UVQ
+  class UVHelper
+
+    # @param [Geom::Point3d] position
+    # @return [Geom::Point3d]
+    def get_back_UVQ(position)
     end
-    def get_front_UVQ
+
+    # @param [Geom::Point3d] position
+    # @return [Geom::Point3d]
+    def get_front_UVQ(position)
     end
-end
+
+  end
 end

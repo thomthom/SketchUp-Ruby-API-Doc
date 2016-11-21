@@ -12,8 +12,10 @@ module Sketchup
     def clear
     end
 
-    def visibe?
+    def visible?
     end
 
   end
 end
+
+SKETCHUP_CONSOLE = Sketchup::Console.new

@@ -139,7 +139,7 @@ module Geom
     #   @param [Numeric] yscale  Scaling factor along the y-axis
     #   @param [Numeric] zscale  Scaling factor along the z-axis
     # @return [Geom::Transformation] The new scaling transformation
-    def self.scaling
+    def self.scaling(*args)
     end
 
     # Sets this transformation to match another one.

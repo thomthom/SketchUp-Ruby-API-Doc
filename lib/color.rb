@@ -16,7 +16,7 @@ module Sketchup
     end
     def names
     end
-    def self.new
+    def self.new(*args)
     end
     def red
     end
