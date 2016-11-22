@@ -3,14 +3,7 @@
 class LanguageHandler
 
   # @private
-  def initialize
-  end
-  private :initialize
-
-  # @params [String] file name
-  # @return [LanguageHandler]
-  def new(file_name)
-    initialize
+  def initialize(filename)
   end
 
   def [](key)

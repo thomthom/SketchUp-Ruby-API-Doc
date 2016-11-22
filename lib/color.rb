@@ -16,7 +16,7 @@ module Sketchup
     end
     def names
     end
-    def self.new(*args)
+    def initialize(r, g, b)
     end
     def red
     end
