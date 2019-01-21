@@ -4,7 +4,7 @@ module Sketchup
     end
     def alpha=(value)
     end
-    def blend
+    def blend(color, weight)
     end
     def blue
     end
@@ -16,7 +16,7 @@ module Sketchup
     end
     def names
     end
-    def initialize(r, g, b)
+    def initialize(*args)
     end
     def red
     end

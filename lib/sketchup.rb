@@ -130,7 +130,7 @@ module Sketchup
   # @return [Boolean] true if successful, otherwise false
   def self.load(file)
   end
-  def self.open_file
+  def self.open_file(file)
   end
   def self.os_language
   end
